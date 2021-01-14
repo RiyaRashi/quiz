@@ -75,8 +75,9 @@ const Quiz = () => {
   return (
     <div>
       <h2 className="text-center mb-3 mt-3">
-        Quiz Screen - Score: {score.correct} - {score.false + score.correct} Timer: {hours}:
-        {minutes}:{seconds}
+        Quiz Screen <br />
+
+         Timer: {hours}:{minutes}:{seconds}
       </h2>
       <div className="card mb-3">
         <div className="card-body design"
