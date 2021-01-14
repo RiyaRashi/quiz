@@ -1,0 +1,53 @@
+body{
+    font-size: 20;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:teal;
+    color: white;
+    text-align: center;
+    width:100%
+}
+.about{
+    font-size: large;
+}
+
+.navbar-custom{
+    background-color: teal;
+}
+
+.footer-content{
+    padding-top: 1%;
+}
+.btn{
+    width:30%;
+    margin:5%;
+    justify-content: center;
+}
+
+.home{
+    padding-top: 15%;
+    color:green;
+    font-style: italic;
+}
+
+.about-div{
+    
+    width: auto;
+    border: 5px solid green;
+    margin: 20%;
+      
+}
+
+@media only screen and (max-width: 700px) {
+    
+    body{
+        font-size:medium;
+    }
+   .btn{
+       width:100%;
+   }
+  }

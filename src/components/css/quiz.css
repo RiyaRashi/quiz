@@ -1,0 +1,36 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10;
+  }
+
+.quizdiv{
+      display: flex;
+      justify-content: space-between;
+        padding-top: 10;
+  }
+
+.card-body-div{
+  display: flex;
+  justify-items: center;
+  align-items:center;
+  font-size: 18;
+  }
+
+.design{
+    display:flex;
+   padding: 10;
+   flex-wrap:wrap;
+  }
+
+.card-header{
+    font-size: 20;
+  }
+
+.card-body-div{
+    display:flex;
+    justify-items:center;
+    align-items: center;
+    font-size: 18,
+  }
